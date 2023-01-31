@@ -1,6 +1,5 @@
 body {
   display: flex;
-
   justify-content: center;
   align-items: center;
   font-family: "Montserrat", sans-serif;
@@ -24,7 +23,7 @@ ul {
 }
 
 .packages-table {
-  border: 1px solid #9dd1ff;
+  border: 1px solid #68e1fd;
   border-radius: 10px;
 
   text-align: center;
@@ -38,7 +37,6 @@ ul {
 
 h2 {
   letter-spacing: 1px;
-
   font-weight: 600;
   color: #888;
   display: block;
@@ -52,10 +50,17 @@ img {
 a.booking-button {
   text-decoration: none;
   display: inline-block;
-  border: 1px solid #9dd1ff;
+  border: 1px solid #68e1fd;
   border-radius: 10px;
   padding: 10px 40px;
   margin: 20px 0;
+  transition: all 200ms ease-in-out;
+  color: #2ab4d3;
+}
+
+a.booking-button:hover {
+  color: white;
+  background-color: #68e1fd;
 }
 
 span.price {

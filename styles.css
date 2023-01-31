@@ -5,6 +5,7 @@ body {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   min-height: 100vh;
+  background: #68e1fd;
 }
 
 li {
@@ -29,6 +30,7 @@ ul {
   max-width: 960px;
   display: flex;
   flex-direction: column;
+  background: white;
 }
 .package-pricing {
   padding: 15px 25px;

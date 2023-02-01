@@ -31,6 +31,7 @@ ul {
   display: flex;
   flex-direction: column;
   background: white;
+  box-shadow: 10px 5px 10px rgba(136, 136, 136, 0.1);
 }
 .package-pricing {
   padding: 15px 25px;
